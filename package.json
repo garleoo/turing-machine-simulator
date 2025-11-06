@@ -1,0 +1,30 @@
+{
+  "name": "turing-machine-simulator",
+  "version": "1.0.0",
+  "description": "A Turing machine simulator that processes input and visualizes the simulation steps.",
+  "main": "src/script.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'Test step not defined'"
+  },
+  "keywords": [
+    "turing machine",
+    "simulator",
+    "automata"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/yourusername/turing-machine-simulator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/turing-machine-simulator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/turing-machine-simulator/issues"
+  }
+}
