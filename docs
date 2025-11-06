@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turing Machine Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Turing Machine Simulator</h1>
+        <div>
+            <label for="input-string">Input (use '|' to separate strings):</label>
+            <input type="text" id="input-string" placeholder="Enter input here">
+            <button onclick="processInput()">Run Simulation</button>
+        </div>
+        <div id="turing-id"></div>
+        <div id="tape-container"></div>
+        <div id="step-info"></div>
+        <div>
+            <button id="prev-step">Previous Step</button>
+            <button id="next-step">Next Step</button>
+            <button id="play-pause">▶ Play</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div id="diagram-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
